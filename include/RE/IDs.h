@@ -409,6 +409,7 @@ namespace RE::ID
 	namespace Calendar
 	{
 		inline constexpr REL::ID Singleton{ 937673 };
+<<<<<<< Updated upstream
 	}
 
 	namespace CellAttachDetachEvent
@@ -669,6 +670,8 @@ namespace RE::ID
 	namespace ClearShipHudTarget::Event
 	{
 		inline constexpr REL::ID GetEventSource{ 0 };  // 137011
+=======
+>>>>>>> Stashed changes
 	}
 
 	namespace ConsoleLog
