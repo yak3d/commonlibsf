@@ -8,6 +8,8 @@
 #include <spdlog/sinks/rotating_file_sink.h>
 #include <spdlog/spdlog.h>
 
+#include "REX/W32/MACRO_GUARD_BEGIN.h"
+
 namespace SFSE
 {
 	namespace Impl
@@ -260,3 +262,5 @@ namespace SFSE
 		api->InitTrampoline();
 	}
 }
+
+#include "REX/W32/MACRO_GUARD_END.h"
